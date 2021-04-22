@@ -29,7 +29,7 @@ body {
 }
 
 
-p {
+p, ul {
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
@@ -42,4 +42,49 @@ p {
 .link:hover {
   color:#fff;
   background-color: black;
+}
+
+.title {
+  padding: 1px 2px;
+}
+
+.body {
+  padding: 2px;
+}
+
+.action {
+  margin-bottom: 10px;
+  padding: 1px 6px;
+}
+
+.notice {
+  color: green;
+}
+
+.error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0 7px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+.error_explanation ul {
+  padding-left: 40px;
+}
+
+.error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
 }
